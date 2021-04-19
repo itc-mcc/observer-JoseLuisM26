@@ -52,7 +52,6 @@ public class AppTest {
         String logTrade2 ="t2:The latest trade is Trader:t1 buy $1.0 Stock: MSFT";
 
         boolean condicion = (logTrade1+logTrade2).equals(sm.trade(t1,s1, "buy",1.00));
-
         assertTrue(condicion);
     }
 
